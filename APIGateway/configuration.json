@@ -1,0 +1,64 @@
+{
+  "Routes": [
+
+    // Product APIs
+
+    {
+      "DownstreamPathTemplate": "/api/Product",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "Localhost",
+          "Port": 7142
+        }
+      ],
+      "UpstreamPathTemplate": "/ApiGateway/Product",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Product/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "Localhost",
+          "Port": 7142
+        }
+      ],
+      "UpstreamPathTemplate": "/ApiGateway/Product/{id}",
+      "UpstreamHttpMethod": [ "Get", "Delete" ]
+    },
+
+    // Customer APIs
+
+    {
+      "DownstreamPathTemplate": "/api/Customer",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "Localhost",
+          "Port": 7194
+        }
+      ],
+      "UpstreamPathTemplate": "/ApiGateway/Customer",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Customer/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "Localhost",
+          "Port": 7194
+        }
+      ],
+      "UpstreamPathTemplate": "/ApiGateway/Customer/{id}",
+      "UpstreamHttpMethod": [ "Delete", "Get" ]
+    }
+
+
+
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7121"
+  }
+}

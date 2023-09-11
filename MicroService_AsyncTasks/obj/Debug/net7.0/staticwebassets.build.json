@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "KuiTndJw+wgJZpNvtVIDjVn1pQbLyq+WQlryknPk3QY=",
+  "Source": "MicroService_AsyncTasks",
+  "BasePath": "_content/MicroService_AsyncTasks",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
