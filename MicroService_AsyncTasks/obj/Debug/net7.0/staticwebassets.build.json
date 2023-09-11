@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "KuiTndJw+wgJZpNvtVIDjVn1pQbLyq+WQlryknPk3QY=",
-  "Source": "MicroService_AsyncTasks",
-  "BasePath": "_content/MicroService_AsyncTasks",
+  "Hash": "+SYM2nHcxW6/vK0SRTDWDx1tFJmgVZY3QCQJLuNGjPs=",
+  "Source": "MicroServices_Product",
+  "BasePath": "_content/MicroServices_Product",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

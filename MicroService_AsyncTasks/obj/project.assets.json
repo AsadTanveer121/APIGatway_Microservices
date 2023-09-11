@@ -4651,9 +4651,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\7ctech10\\source\\repos\\MicroService_AsyncTasks\\MicroService_AsyncTasks\\MicroService_AsyncTasks.csproj",
-      "projectName": "MicroService_AsyncTasks",
-      "projectPath": "C:\\Users\\7ctech10\\source\\repos\\MicroService_AsyncTasks\\MicroService_AsyncTasks\\MicroService_AsyncTasks.csproj",
+      "projectUniqueName": "C:\\Users\\7ctech10\\source\\repos\\MicroService_AsyncTasks\\MicroService_AsyncTasks\\MicroServices_Product.csproj",
+      "projectName": "MicroServices_Product",
+      "projectPath": "C:\\Users\\7ctech10\\source\\repos\\MicroService_AsyncTasks\\MicroService_AsyncTasks\\MicroServices_Product.csproj",
       "packagesPath": "C:\\Users\\7ctech10\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\7ctech10\\source\\repos\\MicroService_AsyncTasks\\MicroService_AsyncTasks\\obj\\",
       "projectStyle": "PackageReference",

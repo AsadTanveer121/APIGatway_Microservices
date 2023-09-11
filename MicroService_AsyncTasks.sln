@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroService_AsyncTasks", "MicroService_AsyncTasks\MicroService_AsyncTasks.csproj", "{59F0FF23-59ED-4C99-B869-4152965D09D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroServices_Product", "MicroService_AsyncTasks\MicroServices_Product.csproj", "{59F0FF23-59ED-4C99-B869-4152965D09D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APIGateway", "APIGateway\APIGateway.csproj", "{1F0B7D51-F4F1-4D87-8A20-F32B8A9AC73D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIGateway", "APIGateway\APIGateway.csproj", "{1F0B7D51-F4F1-4D87-8A20-F32B8A9AC73D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices_Customer", "Microservices_Customer\Microservices_Customer.csproj", "{53A2FEE9-616D-40DF-B9A9-A0212B3A26AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices_Customer", "Microservices_Customer\Microservices_Customer.csproj", "{53A2FEE9-616D-40DF-B9A9-A0212B3A26AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
